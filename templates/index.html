@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>RAKSHAK D.S.</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+    <style>
+      
+      body{
+        background: linear-gradient(to left,rgb(30, 139, 166),rgb(149, 150, 128));
+        font-family: 'Poppins', sans-serif;
+        color : white;
+        font-style: bold;
+      }
+      a{
+        text-decoration: none;
+        display:flex;
+        color: white;
+        align-item:center;
+        justify-content :center;
+      }
+      .header
+      {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .intro{
+        border-radius: 5px;
+        background-color:linear-gradient(to left,rgb(30, 139, 166),rgb(149, 150, 128));
+        
+      }
+     
+      .sitename{
+        font-size: 30px;
+        text-align
+      }
+      .detector
+      {
+        border: 2px solid grey;
+        border-radius:5px;
+      }
+      footer {
+        width: 100%;
+        height: 60px;
+        background: linear-gradient(to left,rgb(30, 139, 166),rgb(149, 150, 128));
+        color: #fff;
+        padding: 40px 0;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 25px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        border-top: 2px solid white;
+      }
+    </style>
+
+   
+  </head>
+  
+
+  <body>
+    
+    <section class="intro">
+      <nav>
+        <div>
+          
+            <a href="index.html" class="nav-logo">
+              <center>
+              <h1 class="sitename" style="padding-left: 12px;">RAKSHAK D.S.</h1>
+              </center>
+              <br>
+            </a>
+          
+          </div>
+    </nav>
+      </section>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <center class="dectector">
+                  <h1 class="mt-5">DROWSINESS DETECTOR</h1>
+                    <img src="{{ url_for('video_feed') }}">
+                </center>
+            </div>
+        </div>
+    </div>
+    <div>
+     
+        
+    </div>
+    <footer>
+      <p>&copy; Built by Tushar Srivastava</p>
+    </footer>
+    </body>
+
+
+</html>

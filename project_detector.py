@@ -247,6 +247,7 @@ class Ui_MainWindow(object):
                         today = d.today() # This get the current date
                         d2 = today.strftime("%B %d, %Y")
                         # This will check if text file exists or not , if exist then append new entries and if not exist then will create a new file to save info.
+                        
                         if os.path.exists('History.txt')==True:
                             f = open("History.txt", "a")
                             f.write("\n  Drowisness Detected on "+d2+" at "+current_time+"\n")
