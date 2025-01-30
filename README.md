@@ -88,7 +88,7 @@ We can even integrate this system in vehicles with FPGA and Arduino
  boards.*
 
 
-#### Demonstration Link: [Video](https://youtu.be/CTGr3dqklb4)
+
 #### CODE: [GITHUB](https://github.com/Tushar-AIMASTER/Rakshak)
 
 ## **Problem Statement:**
