@@ -1,10 +1,3 @@
-# Drowsiness Detector Project
-
-### Project Title: RAKSHAK D.S.
-
-#### Name: Tushar Srivastava
-#### Team Name: ANARGHYA
-
 import scipy
 import numpy as np
 from scipy.spatial import distance as dist
